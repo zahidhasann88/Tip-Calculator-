@@ -1,0 +1,60 @@
+-Remember the tip calculator that we created in 
+another challenge. Let's now create a more advanced 
+version using everything that we learned!
+ 
+-this time, John and his family went to five different
+restaurants. And the bills were 124, 48, 268, 180, 
+and 42 dollars.
+
+-John likes to tip 20 percent of the bill, when it 
+is less than 50 dollars, 12
+ 50 percent if it's 
+between 50 and 200, 13
+ and 10 percent if the bill 
+is more than 200 dollars.
+
+-Implement a tip calculator 16
+ using objects and 
+loops:
+  
+1. create an object with 20
+ an array for the bill values.
+2. add a method to calculate the tip
+3. this method should of course include a loop,to 
+iterate over all the paid bills, and to do the tip 
+calculations.
+4. As an output, you should again create two arrays.
+One containing all the paid tips, and two, containing 
+all the final paid amount. So again, the bill plus 
+the tip. And a hint that I have to give you here 
+is that you can start with two empty arrays 
+as 
+properties, and then fill them up in the loop. 
+
+-Extra After Finishing: Mark's family also went on a holiday. 
+And they are going to four different restaurants. 
+And the bill that they paid were 77, 375, 110,
+and 45 dollars.
+-Mark has a slightly different rules when it comes 
+to tipping. So he likes to tip 20 percent, if the 
+bill is less than 100 dollars,10 percent, when the
+bill is between 100 and 300 dollars,and 25 percent
+if the bill is more than 300 dollars.
+
+5. I want you to implement the same
+functionality as before, but this time of course,
+using Mark's tipping rules.
+6. Create a function, and I don't mean a method. 
+like an outside function to calculate the average
+of a given array of tips. And here I have to give 
+you another hint, because up until this point, 
+we never did anything like this. Okay and so I give 
+you a hint here to calculate the average.And that
+is that you should loop over the array,
+and in each iteration, store the current sum 
+in a variable which starts from zero.Then after 
+you have the sum of the array, then you'll simply
+divide it by the number of elements in it.
+7. calculate the average for both families.
+8. log to the console which family paid the highest
+tips on average. 
